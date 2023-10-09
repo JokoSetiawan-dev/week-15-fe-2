@@ -19,7 +19,7 @@ function App() {
           }
         />
         <Route path="/newtransaction" element={<NewTransaction />} />
-        <Route path="/transaction/update" element={<EditTransaction />} />
+        <Route path="/transaction/update/:id" element={<EditTransaction />} />
       </Routes>
     </BrowserRouter>
   );

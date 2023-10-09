@@ -77,7 +77,7 @@ const HomePage: React.FC<DataTableProps> = () => {
               <td>
                 <button
                   className="btn btn-secondary"
-                  onClick={() => navigate(`/transaction/update`)}
+                  onClick={() => navigate(`/transaction/update/${dataItem.id}`)}
                 >
                   Edit
                 </button>
